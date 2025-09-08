@@ -1,0 +1,345 @@
+body {
+    background: #c3e3ff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #005689;
+}
+
+header {
+    background: #0077be;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    background: #00a8ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    background: #0077be;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background: #005689;
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.welcome {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer {
+    background: #0077be;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header, nav, .welcome, footer,
+.about, .family, .education, 
+.hobby-section, .achievements {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+}
+
+.about h2 {
+    color: #0077be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.about h3 {
+    color: #00a8ff;
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.about hr {
+    border: none;
+    height: 2px;
+    background: #00a8ff;
+    margin: 25px 0;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.photo-item {
+    text-align: center;
+}
+
+.year-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.family {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+}
+
+.family h2 {
+    color: #0077be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.family h3 {
+    color: #00a8ff;
+    margin: 20px 0 10px 0;
+}
+
+.family hr {
+    border: none;
+    height: 2px;
+    background: #00a8ff;
+    margin: 25px 0;
+}
+
+.family-member {
+    margin-bottom: 20px;
+}
+
+.education {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+}
+
+.education h2 {
+    color: #0077be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.education h3 {
+    color: #00a8ff;
+    margin: 20px 0 10px 0;
+}
+
+.education pre {
+    background: #f0f8ff;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #00a8ff;
+    overflow-x: auto;
+}
+
+.hobbies {
+    padding: 20px;
+}
+
+.hobby-section {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 10px;
+    border: 2px solid #00a8ff;
+}
+
+.hobby-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 30px 0;
+    flex-wrap: wrap;
+}
+
+.hobby-item {
+    text-align: center;
+    max-width: 250px;
+}
+
+.hobby-icon {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.hobby-iconps {
+    width: 300px;
+    height: 400px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.hobby-title {
+    font-weight: bold;
+    color: #0077be;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.achievements {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    line-height: 1.6;
+}
+
+.achievements h2 {
+    color: #0077be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.achievements h3 {
+    color: #00a8ff;
+    margin: 20px 0 10px 0;
+}
+
+.achievements hr {
+    border: none;
+    height: 2px;
+    background: #00a8ff;
+    margin: 25px 0;
+}
+
+.photo-ach {
+    display: flex;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.photo-a {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.progress {
+    padding: 20px;
+}
+
+.progress h2 {
+    color: #0077be;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.progress h3 {
+    color: #005689;
+    background: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.grades-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 2px solid #0077be;
+}
+
+.grades-table th {
+    background: #0077be;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #005689;
+}
+
+.grades-table td {
+    padding: 10px;
+    border: 1px solid #00a8ff;
+}
+
+.grades-table tr:nth-child(even) {
+    background: #f0f8ff;
+}
+
+.grades-table td:nth-child(2) {
+    font-weight: bold;
+    text-align: center;
+}
+
+.grades-table tr td:nth-child(2):contains("5") {
+    color: #009900;
+}
+
+.grades-table tr td:nth-child(2):contains("4") {
+    color: #ff9900;
+}
+
+.grades-table tr td:nth-child(2):contains("3") {
+    color: #ff0000;
+}
+
+.grades-table tr td:nth-child(2):contains("зач") {
+    color: #0077be;
+}
+
+.centered {
+    text-align: center;
+}
+
+.about ul, .family ul, .education ol {
+    background-color: #f0f8ff;
+    padding: 15px 15px 15px 35px;
+    border-radius: 10px;
+    border: 1px solid #00a8ff;
+}
+
+.about li, .family li, .education li {
+    margin-bottom: 8px;
+}
